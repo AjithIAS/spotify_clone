@@ -1,0 +1,25 @@
+.top_nav_container{
+    background-color: #080905;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.auth_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.auth_nav_item{
+    padding: 10px 25px;
+}
+.auth_nav_item.signup{
+    color: #ffffff;
+}
+.auth_nav_item.login{
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 10px 25px;
+}
