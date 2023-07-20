@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.spotify_left_panel,
+.spotify_right_panel {
+  height: 100vh;
+}
+.spotify_main {
+  background-color: #000;
+  padding: 8px;
+  overflow: hidden;
+}
+.spotify_main_nav {
+  padding: 8px;
+  background-color: #121212;
+  border-radius: 8px;
+}
+.spotify_main_nav ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.spotify_main_nav ul li {
+  list-style-type: none;
+  padding: 8px 15px;
+}
+.spotify_main_nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
